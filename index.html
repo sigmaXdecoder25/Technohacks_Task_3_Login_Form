@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-TechnoHacks</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <video class="background-video" autoplay muted loop>
+        <source src="/images/backvideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="login-container">
+        <img src="/images/hacks-removebg-preview (1).png" alt="Logo" class="logo">
+        <h2>TechnoHacks</h2>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <div class="error-message" id="error-message"></div>
+            <label for="remember-me">
+                <input type="checkbox" id="remember-me"> Remember Me
+            </label>
+            <button type="submit" class="login-button">Login</button>
+        </form>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
